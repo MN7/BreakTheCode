@@ -1,0 +1,410 @@
+{
+  "class": "PopupOverlay",
+  "key": "ThnE6k7OJB77mvAGBa4DUD66SieI83xn",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [{
+          "class": "PopupContent",
+          "key": "0_359155862",
+          "propList": [
+            {
+              "k": "styleMap",
+              "v": {
+                "name": "styleMap",
+                "properties": [],
+                "type": "PropertyMap[styleMap]"
+              }
+            },
+            {
+              "k": "width",
+              "v": 400
+            },
+            {
+              "k": "height",
+              "v": 200
+            },
+            {
+              "k": "name",
+              "v": "Content"
+            },
+            {
+              "k": "autoHeight",
+              "v": true
+            },
+            {
+              "k": "minHeight",
+              "v": 100
+            },
+            {
+              "k": "layout",
+              "v": "vertical"
+            },
+            {
+              "k": "onLoad",
+              "v": "widget.getElement().setAttribute(\"role\", \"dialog\");\nwidget.getElement().setAttribute(\"aria-labelledby\", \"confirmationDialogTitle\");\nwidget.getElement().setAttribute(\"aria-describedby\", \"confirmationDialogDescription\");\n"
+            },
+            {
+              "k": "children",
+              "v": {
+                "list": [
+                  {
+                    "class": "SimpleLabel",
+                    "key": "0_1308982077",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "width",
+                        "v": 100
+                      },
+                      {
+                        "k": "height",
+                        "v": 20
+                      },
+                      {
+                        "k": "name",
+                        "v": "ConfirmationTitle"
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": true
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "text",
+                        "v": "Start a new game?"
+                      },
+                      {
+                        "k": "variant",
+                        "v": "Regular"
+                      },
+                      {
+                        "k": "styles",
+                        "v": {
+                          "list": ["title"],
+                          "type": "List[String]"
+                        }
+                      },
+                      {
+                        "k": "align",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "onLoad",
+                        "v": "widget.getElement().setAttribute(\"id\", \"confirmationDialogTitle\");\n"
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  },
+                  {
+                    "class": "SimpleLabel",
+                    "key": "0_1797334379",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "width",
+                        "v": 100
+                      },
+                      {
+                        "k": "height",
+                        "v": 20
+                      },
+                      {
+                        "k": "name",
+                        "v": "ConfirmationText"
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": true
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "text",
+                        "v": "This will quit any current game and start a new one. Please Okay to proceed."
+                      },
+                      {
+                        "k": "variant",
+                        "v": "BodyLight"
+                      },
+                      {
+                        "k": "styles",
+                        "v": {
+                          "list": ["body"],
+                          "type": "List[String]"
+                        }
+                      },
+                      {
+                        "k": "align",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "onLoad",
+                        "v": "widget.getElement().setAttribute(\"id\", \"confirmationDialogDescription\");\n"
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  },
+                  {
+                    "class": "Panel",
+                    "key": "0_1377398895",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "width",
+                        "v": 200
+                      },
+                      {
+                        "k": "height",
+                        "v": 200
+                      },
+                      {
+                        "k": "name",
+                        "v": "Footer"
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": true
+                      },
+                      {
+                        "k": "layout",
+                        "v": "horizontal"
+                      },
+                      {
+                        "k": "justify",
+                        "v": "end"
+                      },
+                      {
+                        "k": "wrap",
+                        "v": "wrap"
+                      },
+                      {
+                        "k": "alignChildren",
+                        "v": "center"
+                      },
+                      {
+                        "k": "align",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "styles",
+                        "v": {
+                          "list": ["footer-panel"],
+                          "type": "List[String]"
+                        }
+                      },
+                      {
+                        "k": "children",
+                        "v": {
+                          "list": [
+                            {
+                              "class": "SimpleButton",
+                              "key": "0_1179945077",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 92
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 36
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "CancelButton"
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": true
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": true
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "Cancel"
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "FlatColor"
+                                },
+                                {
+                                  "k": "styles",
+                                  "v": {
+                                    "list": ["footer-button"],
+                                    "type": "List[String]"
+                                  }
+                                },
+                                {
+                                  "k": "action",
+                                  "v": "// GENERATED CODE: Add your action below.\nwidget.root.visible \u003d false;\n"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            },
+                            {
+                              "class": "SimpleButton",
+                              "key": "0_488800462",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 92
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 36
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "ConfirmButton"
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": true
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": true
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "OKAY"
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "FlatColor"
+                                },
+                                {
+                                  "k": "styles",
+                                  "v": {
+                                    "list": ["footer-button"],
+                                    "type": "List[String]"
+                                  }
+                                },
+                                {
+                                  "k": "action",
+                                  "v": "// GENERATED CODE: Add your action below.\nwidget.root.visible \u003d false;\nstart(true);"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }
+                          ],
+                          "type": "List[ComponentInfo]"
+                        }
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  }
+                ],
+                "type": "List[ComponentInfo]"
+              }
+            }
+          ],
+          "type": "ComponentInfo"
+        }],
+        "type": "List[ComponentInfo]"
+      }
+    },
+    {
+      "k": "name",
+      "v": "ConfirmationDialog"
+    },
+    {
+      "k": "hasGlass",
+      "v": true
+    },
+    {
+      "k": "escapeToClose",
+      "v": false
+    },
+    {
+      "k": "navigateToClose",
+      "v": false
+    },
+    {
+      "k": "animation",
+      "v": "fade"
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    },
+    {
+      "k": "height",
+      "v": 960
+    },
+    {
+      "k": "width",
+      "v": 960
+    },
+    {
+      "k": "pageCss",
+      "v": ".title {\n  font-size: 20px;\n  padding: 24px 24px 0;\n}\n.body {\n  font-size: 14px;\n  margin-top: 20px;\n  padding: 0px 24px 28px 24px;\n}\n.footer-panel {\n  padding: 8px;\n}\n.footer-button {\n  margin-right: 8px;\n  padding-left: 8px;\n  padding-right: 8px;\n}\n.footer-button:last-child {\n  margin-right: 0px;\n}\n"
+    }
+  ],
+  "type": "ComponentInfo"
+}
